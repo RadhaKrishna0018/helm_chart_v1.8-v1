@@ -3,7 +3,7 @@ entries:
   cwf-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-09-30T11:02:55.576269441-04:00"
+    created: "2022-10-06T15:56:47.848700615-04:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -23,7 +23,7 @@ entries:
   domain-proxy:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-09-30T11:02:55.582521036-04:00"
+    created: "2022-10-06T15:56:47.854768069-04:00"
     description: A Helm chart for magma orchestrator's domain-proxy module.
     digest: 9e0fc4c64ae7bd544d1fd411fa37111c4c1bde8cbd863570c91330347d76ce0f
     keywords:
@@ -40,7 +40,7 @@ entries:
   feg-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-09-30T11:02:55.586000045-04:00"
+    created: "2022-10-06T15:56:47.85822383-04:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -60,13 +60,13 @@ entries:
   lte-orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-09-30T11:02:55.590391014-04:00"
+    created: "2022-10-06T15:56:47.861764839-04:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.4
     description: A Helm chart for magma orchestrator's lte module
-    digest: 9241a08c612519efc4d74bc98caeeaf933ba7e6ad5db879bdd02e53f111126d5
+    digest: 13d072cf212b3789740190be57cd7cc25a9d9602683547ddca3182ae2469fdd7
     keywords:
     - magma
     - or8cr
@@ -80,7 +80,7 @@ entries:
   orc8r:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-09-30T11:02:55.623189638-04:00"
+    created: "2022-10-06T15:56:47.897640755-04:00"
     dependencies:
     - condition: certs.create
       name: certs
@@ -106,7 +106,7 @@ entries:
       repository: file://../orc8rlib
       version: 0.1.4
     description: Helm chart for the Magma Orchestrator
-    digest: f1c5f6af5f0eb0cc8dc98ff7852a1483df9ac87272eb194602d8aa2a4c4b48bd
+    digest: abd0d9bcdc310c28ee93ee7acd97a9c31b166f2f7f3dc06e26074b511444e65c
     home: https://www.magmacore.org
     keywords:
     - magma
@@ -117,4 +117,4 @@ entries:
     urls:
     - orc8r-1.8.0.tgz
     version: 1.8.0
-generated: "2022-09-30T11:02:55.57297621-04:00"
+generated: "2022-10-06T15:56:47.845713115-04:00"
